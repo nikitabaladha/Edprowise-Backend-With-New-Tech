@@ -2,7 +2,7 @@
 node_modules
 
 # Ignore environment files (optional, if you're mounting via --env-file)
-# .env
+.env
 
 # Ignore log files
 *.log
