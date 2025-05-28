@@ -65,6 +65,10 @@ app.use(
 app.use("/Images", express.static(path.resolve("Images")));
 app.use("/Documents", express.static(path.resolve("Documents")));
 
+app.get("/", (req, res) => {
+  res.send("Welcome to the Edprowise API!");
+});
+
 // Routes
 routes(app);
 
